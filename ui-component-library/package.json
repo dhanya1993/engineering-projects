@@ -1,0 +1,43 @@
+{
+  "name": "@dhanya/ui-kit",
+  "version": "0.1.0",
+  "description": "A reusable, cross-project React component library — headers, tab bars, pagination, empty/network states, modals, forms, and cards — built with the same design-consistency principles used across production e-learning and IoT platforms.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "sideEffects": ["**/*.css"],
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react --external react-dom",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "8.6.14",
+    "@storybook/addon-interactions": "8.6.14",
+    "@storybook/blocks": "8.6.14",
+    "@storybook/react": "8.6.14",
+    "@storybook/react-vite": "8.6.14",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "storybook": "8.6.14",
+    "tailwindcss": "^3.4.4",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.3.0"
+  },
+  "keywords": ["react", "component-library", "design-system", "ui-kit", "typescript", "tailwind", "storybook"],
+  "author": "Dhanyashree H P",
+  "license": "MIT"
+}

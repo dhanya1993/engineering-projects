@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Offline Notes",
+    "slug": "offline-notes-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#101B18"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dhanya.offlinenotes",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Offline Notes uses the microphone to record voice notes attached to your entries."
+      }
+    },
+    "android": {
+      "package": "com.dhanya.offlinenotes",
+      "adaptiveIcon": {
+        "backgroundColor": "#101B18"
+      },
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Offline Notes to access your microphone for voice notes."
+        }
+      ]
+    ]
+  }
+}

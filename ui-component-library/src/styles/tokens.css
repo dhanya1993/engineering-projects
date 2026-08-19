@@ -1,0 +1,40 @@
+/**
+ * Design tokens for @dhanya/ui-kit.
+ * Consuming apps only need to import this once (e.g. in their root layout).
+ * Swap the values below to re-theme every component in the library at once.
+ */
+:root {
+  /* Core palette */
+  --ui-ink-950: #0B1210;
+  --ui-ink-900: #101B18;
+  --ui-ink-800: #182722;
+  --ui-ink-700: #233830;
+  --ui-ink-600: #33534A;
+  --ui-ink-500: #4A7268;
+  --ui-ink-400: #6E9A8F;
+  --ui-ink-300: #9FC0B5;
+  --ui-ink-200: #CFE1D9;
+  --ui-ink-100: #E9F1EC;
+  --ui-ink-50:  #F5F9F7;
+
+  --ui-signal-600: #B4622B;
+  --ui-signal-500: #D97B3F;
+  --ui-signal-400: #E8A671;
+  --ui-signal-100: #FBE8D8;
+
+  --ui-danger-600: #B3261E;
+  --ui-danger-500: #DC3B32;
+  --ui-danger-100: #FBE2E0;
+
+  /* Type */
+  --ui-font-display: 'Fraunces', Georgia, serif;
+  --ui-font-body: 'Inter', system-ui, sans-serif;
+  --ui-font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Radii + shadow */
+  --ui-radius-sm: 6px;
+  --ui-radius-md: 10px;
+  --ui-radius-lg: 16px;
+  --ui-shadow-sm: 0 1px 2px rgba(11, 18, 16, 0.08);
+  --ui-shadow-md: 0 4px 16px rgba(11, 18, 16, 0.12);
+}
