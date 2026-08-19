@@ -6,6 +6,8 @@ and **live speech recognition**. Runs entirely on native Web APIs — no server,
 paid services — so it's a zero-friction way to see (and read the code behind) the same feature
 set described on a resume.
 
+![Speech / Audio / TTS Studio](docs/img/home.png)
+
 **[Live demo →](#)** *(deploy `npm run build` output to Vercel/Netlify/GitHub Pages and drop the link here)*
 
 ## Why this exists

@@ -3,6 +3,8 @@
 A full-stack CRM — contacts, a drag-and-drop deal pipeline, an activity timeline, and task
 reminders. React + Node/Express + MongoDB, JWT authentication.
 
+![Mini CRM sign-in](docs/img/home.png)
+
 ## Why this exists
 
 Most of my other portfolio projects (RBAC dashboard, IoT-style admin console) need a paragraph of

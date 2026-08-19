@@ -4,6 +4,8 @@ A live-updating device-fleet dashboard built on Socket.IO — no database, no po
 backend simulates 24 IoT devices across four regions and pushes every status change, battery
 reading, and alert to connected clients the instant it happens.
 
+![Fleet Pulse — 24 devices updating live, with presence and an activity feed](docs/img/home.png)
+
 **Run it and watch it work** — this is the fastest of my portfolio projects to actually see live:
 two `npm install`s, two `npm run dev`s, no environment variables to configure, no database to
 provision.

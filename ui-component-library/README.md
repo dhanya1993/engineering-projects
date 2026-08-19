@@ -2,6 +2,8 @@
 
 A reusable React component library — extracted from patterns used across production e-learning (web + mobile) and IoT device-fleet platforms. Built to make the same core UI decisions once (spacing, states, validation, empty/offline handling) and reuse them everywhere instead of re-solving them per screen.
 
+![Storybook, documenting all 11 components](docs/img/home.png)
+
 **[View the live Storybook →](#)** *(publish with `npm run build-storybook` + deploy `storybook-static/` to Vercel/Netlify/GitHub Pages, then drop the link here)*
 
 ## Why this exists

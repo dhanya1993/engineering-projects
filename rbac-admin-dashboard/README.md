@@ -2,6 +2,8 @@
 
 A full-stack demo application built around a **multi-tier role-hierarchy (RBAC) system** — the same pattern used on a production IoT device fleet-management platform (national manager → regional manager → field agent, permission-gated actions, org-scoped data access).
 
+![RBAC Fleet Admin sign-in, listing the seeded demo accounts](docs/img/home.png)
+
 React admin console + Node.js/Express API + MongoDB, with JWT authentication and role-based access control enforced on both the server (the real security boundary) and the client (for a coherent UX).
 
 ## Why this exists

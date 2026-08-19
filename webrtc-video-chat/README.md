@@ -4,6 +4,8 @@ A peer-to-peer video call app: two people, one room code, direct browser-to-brow
 and chat. A lightweight Socket.IO server only handles the initial handshake — once the connection
 is up, no media or messages pass through any server at all.
 
+![WebRTC Video Chat room-join screen](docs/img/home.png)
+
 ## Why this exists
 
 WebRTC and real-time communication show up on my resume from a production platform's live,
